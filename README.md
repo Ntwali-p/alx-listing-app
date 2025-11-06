@@ -1,15 +1,32 @@
 # ALX Listing App
 
-## Description
-ALX Listing App is a foundational Airbnb clone. This project demonstrates a modern Next.js setup with TypeScript, TailwindCSS, and reusable components to build scalable and responsive property listings.
+The **ALX Listing App** is a foundational project designed to build an Airbnb-style listing platform.  
+This milestone sets up the basic structure using Next.js, TypeScript, ESLint, and Tailwind CSS.
 
-## Folder Structure
-- **components/**: Reusable UI components like Card and Button.
-- **interfaces/**: TypeScript interfaces for props and types.
-- **constants/**: Reusable constants for API URLs, app name, etc.
-- **public/assets/**: Images and SVGs used in the project.
+## 📁 Project Structure
 
-## Running Locally
-1. Install dependencies:
+- **components/** – Contains reusable UI elements like `Card` and `Button`.
+- **interfaces/** – Contains all TypeScript interfaces for type safety.
+- **constants/** – Contains reusable data, configuration, and constants.
+- **public/assets/** – Stores static files such as images and SVGs.
+
+## 🚀 Getting Started
+
+### 1. Install dependencies
 ```bash
 npm install
+```
+
+### 2. Run the development server
+```bash
+npm run dev
+```
+
+### 3. Open your browser
+Go to [http://localhost:3000](http://localhost:3000)
+
+## 🛠️ Tools Used
+- Next.js
+- TypeScript
+- Tailwind CSS
+- ESLint
